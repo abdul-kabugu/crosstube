@@ -5,7 +5,7 @@ import React from "react";
 import { ConnectButton, useConnectedAccount } from "@crossbell/connect-kit";
 import { extractCharacterName } from "@crossbell/util-metadata";
 import { CharacterAvatar } from "@crossbell/ui";
-
+import "@crossbell/connect-kit/colors.css";
 export function Connection() {
   const account = useConnectedAccount();
   const characterName = extractCharacterName(account?.character);
