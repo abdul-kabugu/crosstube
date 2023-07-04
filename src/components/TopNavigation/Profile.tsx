@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { useState, Fragment, useEffect, useRef } from "react";
 import { CharacterAvatar, useWeb2Url } from "@crossbell/ui";
+import {CiWallet} from 'react-icons/ci'
 import {
   useConnectedAccount,
   ConnectButton,
@@ -111,12 +112,13 @@ export default function Connected() {
     return (
       <ConnectButton>
         {(status, { connect, disconnect }) => (
-          <button
+          <div
             onClick={status.isConnected ? disconnect : connect}
-            className="bg-blue-700  font-sans text-white py-1.5 px-4 rounded-xl"
+            className="bg-blue-600  font-sans text-white py-1.5 px-4 rounded-xl flex items-center gap-2 cursor-pointer"
           >
-            {status.isConnected ? "Disconnect" : "Connect Wallet"}
-          </button>
+            <CiWallet size={18} />
+           <div>{status.isConnected ? "Sign out" : "Sign In"}</div>
+          </div>
         )}
       </ConnectButton>
     );

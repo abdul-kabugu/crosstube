@@ -12,7 +12,7 @@ import {
   
   export default function MobileNav() {
     return (
-      <div className="border border-t-gray-800 rounded-t-md  px-3 py-1 z-10 h-[60px] md:hidden bottom-0 top-auto fixed w-full flex items-center">
+      <div className="border bg-black border-t-gray-800 rounded-t-md  px-3 py-1 z-10 h-[60px] md:hidden bottom-0 top-auto fixed w-full flex items-center mt-[200px]">
         <div className="flex justify-between w-full">
           <Link href={`/`}>
             <div className="flex items-center justify-center flex-col">

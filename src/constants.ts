@@ -67,4 +67,75 @@ export const profileMenuLinks = [
       to: "/sync",
     },*/
   ];
+
+   export const tagFilters = [
+    {
+      title : "All",
+      value : "All"
+    },
+    {
+      title : "People & Blogs",
+      value : "People & Blogs"
+    },
+    {
+      title : "Education",
+      value : "Education"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Health & Fitness",
+      value : "Health & Fitness"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+    {
+      title : "Food & Cooking",
+      value : "Food & Cooking"
+    },
+   ]
   

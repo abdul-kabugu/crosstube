@@ -23,7 +23,7 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
         <main className="flex ">
             <section
               className={`${
-                isSidebarExpanded ? "md:ml-[106px] bg-red-600" : "md:ml-[66px] bg-yellow-600"
+                isSidebarExpanded ? "md:ml-[106px]" : "md:ml-[66px]"
               } xs:ml-0  w-full`}
             >
               {children}
